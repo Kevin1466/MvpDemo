@@ -5,17 +5,16 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="mvpdemo" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".TestActivity"
+            android:label="mvpdemo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

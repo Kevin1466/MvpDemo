@@ -36,7 +36,7 @@ public class DatePickerFragment extends Fragment implements TopView {
 	private int mYear, mMonthOfYear, mDayOfMonth;
 	@Override
 	public void initViews() {
-		mDatePickerDialog = new DatePickerDialog(getContext(), new MyOnDateSetListener(), mYear, mMonthOfYear, mDayOfMonth);
+//		mDatePickerDialog = new DatePickerDialog(getContext(), new MyOnDateSetListener(), mYear, mMonthOfYear, mDayOfMonth);
 	}
 
 	@Override

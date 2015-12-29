@@ -4,6 +4,7 @@ import android.content.res.Resources;
 
 /**
  * Model? Entity?
+ * Can be applied unit test, cus it segregates view and business logic
  * @author renguangkai
  *
  */
@@ -15,6 +16,9 @@ public class TopUseCase {
 		return res.toString();
 	}
 	
+	/**
+	 * hide the detail of TopPresenter
+	 */
 	public void saveCalenderDate() {
 		date = getDateToDisplay(null);
 	}

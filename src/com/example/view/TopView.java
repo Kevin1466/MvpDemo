@@ -2,7 +2,7 @@ package com.example.view;
 
 public interface TopView {
 	/**
-	 * facade pattern for handling all Actionbar settings
+	 * facade pattern for handling all ActionBar settings
 	 */
 	void initViews();
 	void openDatePickerDialog();
